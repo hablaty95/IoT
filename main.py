@@ -24,9 +24,9 @@ def iot():
     # # shutter = Shutters('FIRST_BEDROOM')
     #
     # ctrl.save_to_json()
-    root = tk.Tk()
-    app = Gui(root)
-    root.mainloop()
+    c = Controller()
+    app = Gui(c)
+    app.run()
 
 
 if __name__ == '__main__':

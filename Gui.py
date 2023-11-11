@@ -21,7 +21,7 @@ from Controller import Controller
 
 class Gui:
     def __init__(self, ctrlr):
-        self.ctrlr = Controller()
+        self.ctrlr = ctrlr
 
         self.root = tk.Tk()
         self.root.title("Smart Home Control Panel")
