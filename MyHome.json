@@ -1,62 +1,52 @@
 [
    {
-      "device_type": "01",
+      "device_type": "lights",
       "id": 0,
-      "location": "01"
+      "location": "HALL"
    },
    {
-      "device_type": "01",
+      "device_type": "lights",
       "id": 1,
-      "location": "01"
+      "location": "KITCHEN"
    },
    {
-      "device_type": "01",
+      "device_type": "lights",
       "id": 2,
-      "location": "02"
+      "location": "First Bedroom"
    },
    {
-      "device_type": "01",
+      "device_type": "lights",
       "id": 3,
-      "location": "02"
+      "location": "SECOND_BEDROOM"
    },
    {
-      "device_type": "01",
+      "device_type": "thermostat",
       "id": 4,
-      "location": "01"
+      "location": "HALL"
    },
    {
-      "device_type": "01",
+      "device_type": "camera",
       "id": 5,
-      "location": "01"
+      "location": "HALL"
    },
    {
-      "device_type": "01",
+      "device_type": "alarm",
       "id": 6,
-      "location": "02"
+      "location": "HALL"
    },
    {
-      "device_type": "01",
+      "device_type": "weather",
       "id": 7,
-      "location": "02"
+      "location": "HALL"
    },
    {
-      "device_type": "01",
+      "device_type": "weather",
       "id": 8,
-      "location": "01"
+      "location": "FIRST_BEDROOM"
    },
    {
-      "device_type": "01",
+      "device_type": "shutters",
       "id": 9,
-      "location": "01"
-   },
-   {
-      "device_type": "01",
-      "id": 10,
-      "location": "02"
-   },
-   {
-      "device_type": "01",
-      "id": 11,
-      "location": "02"
+      "location": "FIRST_BEDROOM"
    }
 ]

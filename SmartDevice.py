@@ -1,5 +1,4 @@
 import itertools
-import json
 
 
 class SmartDevice:
@@ -27,10 +26,14 @@ class SmartDevice:
         }
 
     @classmethod
-    def to_dict_all(cls):
-        return [device.to_dict() for device in cls.devices]
+    def get_devices(cls):
+        return cls.devices
 
-    @classmethod
-    def save_to_json(cls):
-        with open("MyHome.json", "w") as file:
-            json.dump(cls.to_dict_all(), file, indent=3)
+    def get_type(self):
+        return self.device_type
+
+    def get_location(self):
+        return self.location
+
+    def get_id(self):
+        return self.id

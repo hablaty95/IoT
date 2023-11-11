@@ -1,15 +1,13 @@
 from SmartDevice import SmartDevice
 
 
-class Lights(SmartDevice):
+class AlarmPad(SmartDevice):
     def __init__(self, location):
-        device_type = "lights"
+        device_type = "alarm"
         super().__init__(location, device_type)
-        self.brightness = 0.5
-        print("Smart Light registered! "
+        self.is_alarm_on = False
+        self.is_alarm_activable = False
+        print("Security alarm pad registered! "
               "Location: " + self.location +
               " Id : ", self.id,
               " Complex Id = " + self.complex_id)
-
-    def get_brightness(self):
-        return self.brightness
